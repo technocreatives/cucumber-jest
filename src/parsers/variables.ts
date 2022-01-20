@@ -14,7 +14,7 @@ import {getPaths} from '../utils/getPaths';
 export function getVariables(
     cwd: string,
     featurePath: string,
-    extensions: string[]
+    extensions: string[] = []
 ): false | Record<string, unknown> {
     const varExts = filter(extensions, (ext) => ext !== 'feature');
 

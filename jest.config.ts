@@ -20,6 +20,7 @@ export default {
         '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
         '^.+\\.(feature)$': '<rootDir>/dist/index.js'
     },
+    testEnvironment: 'jest-environment-jsdom',
     testTimeout: 6000,
     verbose: true
 };

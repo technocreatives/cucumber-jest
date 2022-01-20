@@ -50,7 +50,7 @@
         "fast-glob": "~3.2.4",
         "flatten-anything": "~2.0.4",
         "inline-loops.macro": "^1.2.2",
-        "jest": "^26.4.7",
+        "jest": "^27.4.7",
         "merge-deep": "^3.0.3",
         "mkdirp": "^1.0.4",
         "outdent": "^0.8.0"
